@@ -133,6 +133,68 @@ img {
     min-height: 150px;
 }
 
+/**** Add Card CSS Here *******/
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 325px;
+    background-color: #283144;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    overflow: hidden;
+    margin: 10px;
+    transition: 0.5s ease;
+    margin-bottom: 5em;
+}
+
+.card:hover {
+    background-color: #1c2331;
+}
+
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 2em;
+}
+
+.card-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+    color: #fff;
+}
+
+.card-content p {
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: #00a8ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.card-button:hover {
+    background-color: #0096e6;
+}
+
 /* Tablet Media Query */
 
 @media (min-width: 769px) {
