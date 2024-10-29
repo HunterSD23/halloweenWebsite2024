@@ -53,7 +53,7 @@ a {
 }
 
 .main-nav a {
-    color: #34495e;
+    color: #f90;
     font-size: .99em;
 }
 
@@ -65,7 +65,7 @@ a {
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #a2a2a2;
-    background-color: #f4f4f4;
+    background-color: #f30300;
     -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
@@ -87,11 +87,12 @@ img {
 
 .one {
     min-height: 250px;
-    background-image: url(..images/mx-background-demise-fnf.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+    background-image: url(../images/Demise_floor_but_underground.webp);
+    background-repeat: repeat;
+    background-size: 100%, cover;
+    background-position-x:center;
     background-position-y: bottom;
+    background-color:#1c2331;
 }
 
 .one h1 {
@@ -105,6 +106,11 @@ img {
 
 .two{
     background-color: #f907;
+    background-image: url(../images/MMWarp2BG.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: bottom;
     min-height: 150px;
 }
 
@@ -224,13 +230,11 @@ img {
     }
 
     .two {
-        grid-column: 1 / 2;
-        grid-row: 2 / 4;
+        grid-column: 1 / 3;
     }
 
     .three {
-        grid-column: 2 / 3;
-        grid-row: 2 / 4;
+        grid-column: 1 / 3;
     }
 
     .four {
@@ -242,11 +246,11 @@ img {
     }
 
     .six {
-        grid-column: 1 / 2;
+        grid-column: 1 / 3;
     }
 
     .seven{
-        grid-column: 2 / 3;
+        grid-column: 1 / 3;
     }
 
 } /* End of Tablet Media Query */
@@ -267,11 +271,11 @@ img {
     }
 
     .two {
-        grid-column: 1 / 3;
+        grid-column: 1 / 4;
     }
 
     .three {
-        grid-column: 3 / 4;
+        grid-column: 1 / 4;
     }
 
     .four {
@@ -283,11 +287,11 @@ img {
     }
 
     .six {
-        grid-column: 1 / 2;
+        grid-column: 1 / 4;
     }
 
     .seven{
-        grid-column: 2 / 4;
+        grid-column: 1 / 4;
     }
 }/* End of Desktop Media Query */
 
