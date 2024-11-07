@@ -87,7 +87,7 @@ img {
 
 .one {
     min-height: 250px;
-    background-image: url(../images/Demise_floor_but_underground.webp);
+    background-image: url(../images/spooky_campfire_deadbydaylight.webp);
     background-repeat: repeat;
     background-size: 100%, cover;
     background-position-x:center;
@@ -124,18 +124,12 @@ img {
 }
 
 .two{
-    background-color: #f907;
-    background-image: url(../images/MMWarp2BG.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: center;
-    background-position-x: bottom;
+    background-color: #ffa500;
     min-height: 150px;
 }
 
 .three{
-    background-color: #f307;
-    background-image: url(../images/content-cosmos-map.jpg);
+    background-color: #141414;
     min-height: 150px;
 }
 
